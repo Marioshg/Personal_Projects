@@ -27,3 +27,8 @@ p.second {
     .comments p:nth-child(odd) {
     background: gainsboro;
     }
+
+    .comment-input.button{
+      cursor: pointer;
+      margin: 15px 0;
+      }
