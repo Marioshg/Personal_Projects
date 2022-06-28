@@ -2,6 +2,8 @@
 <html>
 <head>
 <title>Amazeriffic</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="margin_border_padding.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
@@ -26,13 +28,17 @@
     width = '400'
     height = '500'
      alt="an image of a lightbulb">
+     <section class="comment-input">
+        <p>Add Your Comment:</p>
+        <input type="text"><button>+</button>
+        </section>
 </main>
 <footer>
     <div class="contact">
     <h5>Contact Us</h5>
-    <p>Amazeriffic!</p>
-    <p>555 Fiftieth Street</p>
-    <p>Asheville, NC 28801</p>
+    <p class= 'first'> Amazeriffic!</p>
+    <p class = 'second'> 555 Fiftieth Street</p>
+    <p class = 'comments'> Asheville, NC 28801</p>
     </div>
     <div class="sitemap">
     <h5>Sitemap</h5>
@@ -46,5 +52,7 @@
     </ul>
     </div>
     </footer>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

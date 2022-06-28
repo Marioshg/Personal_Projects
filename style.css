@@ -1,0 +1,29 @@
+body {
+background: lightcyan;
+width: 800px;
+color: #ff0000
+margin: auto;
+}
+h1 {
+color: maroon;
+text-align: center;
+}
+p {
+  color : yellow;
+}
+p.first {
+color: gray;
+border: 1px solid gray;
+padding: 10px;
+}
+p.second {
+  color: red;
+  margin: 10px;
+  padding: 20px;
+  }
+  .comments p:nth-child(even) {
+    background: lavender;
+    }
+    .comments p:nth-child(odd) {
+    background: gainsboro;
+    }
